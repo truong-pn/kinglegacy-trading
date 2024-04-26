@@ -9,6 +9,9 @@
     <link href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <style>
+        h1 {
+            text-align: center;
+        }
         .table {
             padding-right: 0px;
             padding-left: 0px;
@@ -31,6 +34,7 @@
         <table id="csv-table" class="table table-striped">
             <thead>
                 <tr>
+                    <th>ID</th>
                     <th>Items</th>
                     <th>Categories</th>
                     <th>Ratio</th>
@@ -62,7 +66,9 @@
                     console.log(cells)
                     if (cells.length >= 5) {
                         data.push({
+                            ID: cells[0],
                             Items: cells[1],
+                            ImageURL: cells[2],
                             Categories: cells[3],
                             Ratio: cells[4],
                         });
@@ -80,10 +86,12 @@
                     },
                     data: data,
                     columns: [
+                        { data: "ID" },
                         { data: 'Items',
-                        render: function(data, type, row) {
+                            render: function(data, type, row) {
                                 if (type === 'display') {
-                                    return '<div>' + data + '</div><img src="' + data + '" alt="Image" style="max-width: 50px; max-height: 50px;">';
+                                    console.log(row)
+                                    return '<div><img src="' + row.ImageURL + '" alt="Image" style="max-width: 30px; max-height: 30px; margin-right: 2px">' + data + '</div>';
                                 }
                                 return data;
                             }
@@ -91,6 +99,12 @@
                         { data: 'Categories' },
                         { data: 'Ratio' },
                     ],
+                    columnDefs: [
+                        { "visible": false, "targets": [0] }
+                    ],
+                    order: [[0, 'asc']],
+                    pageLength: 10,
+                    pagingType: "numbers",
                     responsive: true,
                     autoWidth: true
                 });

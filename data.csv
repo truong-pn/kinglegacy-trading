@@ -1,122 +1,124 @@
 Id,Items,ImageURL,Categories,Ratio
-1,Avalon,,Sword,1 Fin
-2,Authentic Triple Katana,,Sword,1 Fin
-3,Aquatic Anchor,,Sword,1 Fin
-4,Daybreak Cleaver,,Sword,1 Fin
-5,Sweet Lozenge,,Sword,2 Fin
-6,Scepters of Falme,,Sword,1 Fin
-7,Phoenix Blade,,Sword,2 Fin
-8,Long,,Sword,1 Fin
-9,Acroscythe,,Sword,3 Fin
-10,Ethereal,,Sword,5 Fin
-11,Tomoe taiko,,Accessory,1 Fin
-12,Hydra mark,,Accessory,1 Fin
-13,Lucidus Coat,,Accessory,1 Fin
-14,Tengu Mask,,Accessory,1 Fin
-15,Oni Mask,,Accessory,1 Fin
-16,Dragon Necklace,,Accessory,1 Fin
-17,Dark Beard Hat,,Accessory,1 Fin
-18,Inferno Cloak,,Accessory,3 Fin
-19,Floffy coat,,Accessory,1 Fin
-20,Hallow Shawl,,Accessory,1 Fin
-21,Hallow Lamp,,Accessory,1 Fin
-22,Pumpkin Head,,Accessory,1 Fin
-23,Green Dryadalis,,Accessory,1 Fin
-24,Navititatis,,Accessory,1 Fin
-25,Cervus,,Accessory,1 Fin
-26,Sea King Skull,,Accessory,2 Fin
-27,EXP Crown,,Accessory,4 Fin
-28,Night Necklace,,Accessory,6 Fin
-29,Crustacean Armor,,Accessory,150 Fin +
-30,Abyss Sentinel Armor,,Accessory,2 Fin
-31,Oceanic Tentacle,,Accessory,1 Fin
-32,Shadow Cloak,,Accessory,1 Fin
-33,Sentinel Armor,,Accessory,1 Fin
-34,Water Kimono,,Accessory,4 Fin
-35,Feather,,Material,300:1 Fin
-36,Leather,,Material,300:1 Fin
-37,Bone,,Material,1000:1 Fin
-38,Log,,Material,2000:1 Fin
-39,Carrots,,Material,2000:1 Fin
-40,Scraps,,Material,2000:1 Fin
-41,Irons,,Material,500:1 Fin
-42,Undead’s orb,,Material,300:1 Fin
-43,Fresh fish,,Material,300:1 Fin
-44,Bread Crumbs,,Material,300:1 Fin
-45,Gunpowder,,Material,200:1 fin
-46,Thief’s Rags,,Material,150:1 Fin
-47,Sk blood,,Material,15:1 Fin
-48,Magma crystal,,Material,50:1 Fin
-49,Ice crystal,,Material,25:1 Fin
-50,Vampire’s Vital Fluid,,Material,20:1 Fin
-51,Dragon Scales,,Material,10:1 Fin
-52,Shark’s Canine,,Material,10:1 Fin
-53,Twilight’s Orb,,Material,10:1 Fin
-54,Sea’s Wraith,,Material,3:1 Fin
-55,Dragon Orbs,,Material,5:1 Fin
-56,Samurai’s Bandage,,Material,5:1 Fin
-57,Essence of Fire,,Material,5:1 Fin
-58,Lost Rubies,,Material,3:1 Fin
-59,Hydra Tail,,Material,4-5 Fin
-60,Phoenix Tear,,Material,5-6 Fin
-61,Sea artifact,,Material,200:1 Fin
-62,Shark Fin,,Material,30:1 Fin
-63,Coral,,Material,25:1 Fin
-64,Pearl,,Material,10:1 Fin
-65,Gale Stone,,Stone,9 Fin
-66,Blaze Stone,,Stone,9 Fin
-67,Tempestas Stone,,Stone,4 Fin
-68,Bloodthirsty Stone,,Stone,5 Fin
-69,Abyss Stone,,Stone,5 Fin
-70,Glacier Stone,,Stone,4 Fin
-71,Disillusion Stone,,Stone,1 Fin
-72,Conqueror Haki,,GamePass,100-120 Fin
-73,Fruit Position,,GamePass,100-120 Fin
-74,Night Blade,,GamePass,35-40 Fin
-75,Quest Money X2,,GamePass,35 Fin
-76,Item Drop X2,,GamePass,30-35 Fin
-77,Conffin Boat,,GamePass,20-25 Fin
-78,Legacy Pose,,GamePass,12-15 Fin
-79,12hours 2x Exp ,,GamePass,2 Fin
-80,Race Reroll,,GamePass,2 Fin
-81,Stat Reset,,GamePass,1 Fin
-82,Perm Spin,,GamePass,1-2 Fin
-83,Perm Bomb,,GamePass,2-5 Fin
-84,Perm Human,,GamePass,10-15 Fin
-85,Perm Spike,,GamePass,15-20 Fin
-86,Perm Paw,,GamePass,15-20 Fin
-87,Perm Girraffe,,GamePass,15-25 Fin
-88,Perm Barrier,,GamePass,20-30 Fin
-89,Perm Wolf,,GamePass,25-35 Fin
-90,Perm Love,,GamePass,30-35 Fin
-91,Perm Smoke,,GamePass,30-40 Fin
-92,Perm Shadow,,GamePass,30-40 Fin
-93,Perm String,,GamePass,30-40 Fin
-94,Perm Rubber,,GamePass,25-30 Fin
-95,Perm Sand,,GamePass,35-40 Fin
-96,Perm Leopard,,GamePass,45-50 Fin
-97,Perm Buddha,,GamePass,45-50 Fin
-98,Perm Dark,,GamePass,45-50 Fin
-99,Perm Venom,,GamePass,45-50 Fin
-100,Perm Gravity,,GamePass,50-60 Fin
-101,Perm Allosaurus,,GamePass,50-70 Fin
-102,Perm Brachio,,GamePass,50-70 Fin
-103,Perm OP,,GamePass,50-70 Fin
-104,Perm Mammoth,,GamePass,50-70 Fin
-105,Perm Spino,,GamePass,50-70 Fin
-106,Perm Ice,,GamePass,25-30 Fin
-107,Perm Flame,,GamePass,30-35 Fin
-108,Perm Magma,,GamePass,30-35 Fin
-109,Perm Light,,GamePass,35-40 Fin
-110,Perm Gas,,GamePass,60-80 Fin
-111,Perm Snow,,GamePass,60-70 Fin
-112,Perm Rumble,,GamePass,55-60 Fin
-113,Perm Quake,,GamePass,60-65 Fin
-114,Perm Gold,,GamePass,65-70 Fin
-115,Perm Spirit,,GamePass,75-90 Fin
-116,Perm Magnet,,GamePass,75-90 Fin
-117,Perm Phoenix,,GamePass,75-90 Fin
-118,Perm Gate,,GamePass,65-75 Fin
-119,Perm Dough,,GamePass,110-130 Fin
-120,Perm Toy,,GamePass,90-100 Fin
-121,Perm Dragon,,GamePass,100-110 Fin
+1,Avalon,images/1.png,Sword,1 Fin
+2,Authentic Triple Katana,images/2.png,Sword,1 Fin
+3,Aquatic Anchor,images/3.png,Sword,1 Fin
+4,Daybreak Cleaver,images/4.png,Sword,1 Fin
+5,Sweet Lozenge,images/5.png,Sword,2 Fin
+6,Scepters of Falme,images/6.png,Sword,1 Fin
+7,Phoenix Blade,images/7.png,Sword,2 Fin
+8,Long,images/8.png,Sword,1 Fin
+9,Acroscythe,images/9.png,Sword,3 Fin
+10,Ethereal,images/10.png,Sword,8 Fin
+11,Pumpkin Smasher,images/11.png,Sword,6 Fin
+12,Tomoe taiko,images/12.png,Accessory,1 Fin
+13,Hydra mark,images/13.png,Accessory,1 Fin
+14,Lucidus Coat,images/14.png,Accessory,1 Fin
+15,Tengu Mask,images/15.png,Accessory,1 Fin
+16,Oni Mask,images/16.png,Accessory,1 Fin
+17,Dragon Necklace,images/17.png,Accessory,1 Fin
+18,Dark Beard Hat,images/18.png,Accessory,1 Fin
+19,Inferno Cloak,images/19.png,Accessory,3 Fin
+20,Floffy coat,images/20.png,Accessory,1 Fin
+21,Hallow Shawl,images/21.png,Accessory,1 Fin
+22,Hallow Lamp,images/22.png,Accessory,1 Fin
+23,Pumpkin Head,images/23.png,Accessory,1 Fin
+24,Green Dryadalis,images/24.png,Accessory,1 Fin
+25,Nativitatis,images/25.png,Accessory,1 Fin
+26,Cervus,images/26.png,Accessory,1 Fin
+27,Sea King Skull,images/27.png,Accessory,2 Fin
+28,EXP Crown,images/28.png,Accessory,4 Fin
+29,Night Necklace,images/29.png,Accessory,6 Fin
+30,Crustacean Armor,images/30.png,Accessory,150 Fin +
+31,Abyss Sentinel Armor,images/31.png,Accessory,2 Fin
+32,Oceanic Tentacle,images/32.png,Accessory,1 Fin
+33,Shadow Cloak,images/33.png,Accessory,1 Fin
+34,Sentinel Armor,images/34.png,Accessory,1 Fin
+35,Water Kimono,images/35.png,Accessory,4 Fin
+36,Feather,images/36.png,Material,300:1 Fin
+37,Leather,images/37.png,Material,300:1 Fin
+38,Bone,images/38.png,Material,1000:1 Fin
+39,Log,images/39.png,Material,2000:1 Fin
+40,Carrots,images/40.png,Material,2000:1 Fin
+41,Scraps,images/41.png,Material,2000:1 Fin
+42,Irons,images/42.png,Material,500:1 Fin
+43,Undead’s orb,images/43.png,Material,300:1 Fin
+44,Fresh fish,images/44.png,Material,300:1 Fin
+45,Bread Crumbs,images/45.png,Material,300:1 Fin
+46,Gunpowder,images/46.png,Material,200:1 fin
+47,Thief’s Rags,images/47.png,Material,150:1 Fin
+48,Sk blood,images/48.png,Material,15:1 Fin
+49,Magma crystal,images/49.png,Material,50:1 Fin
+50,Ice crystal,images/50.png,Material,25:1 Fin
+51,Vampire’s Vital Fluid,images/51.png,Material,20:1 Fin
+52,Dragon Scales,images/52.png,Material,10:1 Fin
+53,Shark’s Canine,images/53.png,Material,10:1 Fin
+54,Twilight’s Orb,images/54.png,Material,10:1 Fin
+55,Sea’s Wraith,images/55.png,Material,3:1 Fin
+56,Dragon Orbs,images/56.png,Material,5:1 Fin
+57,Samurai’s Bandage,images/57.png,Material,5:1 Fin
+58,Essence of Fire,images/58.png,Material,5:1 Fin
+59,Lost Rubies,images/59.png,Material,3:1 Fin
+60,Hydra Tail,images/60.png,Material,4-5 Fin
+61,Phoenix Tear,images/61.png,Material,5-6 Fin
+62,Sea artifact,images/62.png,Material,200:1 Fin
+63,Shark Fin,images/63.png,Material,30:1 Fin
+64,Coral,images/64.png,Material,25:1 Fin
+65,Pearl,images/65.png,Material,10:1 Fin
+66,Aqua gem,images/66.png,Material,2:1 Fin
+67,Gale Stone,images/67.png,Stone,9 Fin
+68,Blaze Stone,images/68.png,Stone,9 Fin
+69,Tempestas Stone,images/69.png,Stone,4 Fin
+70,Bloodthirsty Stone,images/70.png,Stone,5 Fin
+71,Abyss Stone,images/71.png,Stone,5 Fin
+72,Glacier Stone,images/72.png,Stone,4 Fin
+73,Disillusion Stone,images/73.png,Stone,1 Fin
+74,Conqueror Haki,images/74.png,GamePass,100-120 Fin
+75,Fruit Position,images/75.png,GamePass,100-120 Fin
+76,Night Blade,images/76.png,GamePass,35-40 Fin
+77,Quest Money X2,images/77.png,GamePass,35 Fin
+78,Item Drop X2,images/78.png,GamePass,30-35 Fin
+79,Coffin Boat,images/79.png,GamePass,20-25 Fin
+80,Legacy Pose,images/80.png,GamePass,12-15 Fin
+81,12hours 2x Exp ,images/81.png,GamePass,2 Fin
+82,Race Reroll,images/82.png,GamePass,2 Fin
+83,Stat Reset,images/83.png,GamePass,1 Fin
+84,Perm Spin,images/84.png,GamePass,1-2 Fin
+85,Perm Bomb,images/85.png,GamePass,2-5 Fin
+86,Perm Human,images/86.png,GamePass,10-15 Fin
+87,Perm Spike,images/87.png,GamePass,15-20 Fin
+88,Perm Paw,images/88.png,GamePass,15-20 Fin
+89,Perm Girraffe,images/89.png,GamePass,15-25 Fin
+90,Perm Barrier,images/90.png,GamePass,20-30 Fin
+91,Perm Wolf,images/91.png,GamePass,25-35 Fin
+92,Perm Love,images/92.png,GamePass,30-35 Fin
+93,Perm Smoke,images/93.png,GamePass,30-40 Fin
+94,Perm Shadow,images/94.png,GamePass,30-40 Fin
+95,Perm String,images/95.png,GamePass,30-40 Fin
+96,Perm Rubber,images/96.png,GamePass,25-30 Fin
+97,Perm Sand,images/97.png,GamePass,35-40 Fin
+98,Perm Leopard,images/98.png,GamePass,45-50 Fin
+99,Perm Buddha,images/99.png,GamePass,45-50 Fin
+100,Perm Dark,images/100.png,GamePass,45-50 Fin
+101,Perm Venom,images/101.png,GamePass,45-50 Fin
+102,Perm Gravity,images/102.png,GamePass,50-60 Fin
+103,Perm Allosaurus,images/103.png,GamePass,50-70 Fin
+104,Perm Brachio,images/104.png,GamePass,50-70 Fin
+105,Perm OP,images/105.png,GamePass,50-70 Fin
+106,Perm Mammoth,images/106.png,GamePass,50-70 Fin
+107,Perm Spino,images/107.png,GamePass,50-70 Fin
+108,Perm Ice,images/108.png,GamePass,25-30 Fin
+109,Perm Flame,images/109.png,GamePass,30-35 Fin
+110,Perm Magma,images/110.png,GamePass,30-35 Fin
+111,Perm Light,images/111.png,GamePass,35-40 Fin
+112,Perm Gas,images/112.png,GamePass,60-80 Fin
+113,Perm Snow,images/113.png,GamePass,60-70 Fin
+114,Perm Rumble,images/114.png,GamePass,55-60 Fin
+115,Perm Quake,images/115.png,GamePass,60-65 Fin
+116,Perm Gold,images/116.png,GamePass,65-70 Fin
+117,Perm Spirit,images/117.png,GamePass,75-90 Fin
+118,Perm Magnet,images/118.png,GamePass,75-90 Fin
+119,Perm Phoenix,images/119.png,GamePass,75-90 Fin
+120,Perm Gate,images/120.png,GamePass,65-75 Fin
+121,Perm Dough,images/121.png,GamePass,110-130 Fin
+122,Perm Toy,images/122.png,GamePass,90-100 Fin
+123,Perm Dragon,images/123.png,GamePass,100-110 Fin

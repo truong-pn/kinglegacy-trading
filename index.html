@@ -1,109 +1,122 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
-    <title></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <title>Trading List</title>
-</head>
-
-<style>
-    body {
-        background-image: url('grunge_patterns.jpg');
-        background-attachment: fixed;
-        color: #333;
-    }
-    .box {
-        border-radius: 3px;
-        background: rgba(101, 101, 101, 0.7);
-        margin: auto;
-        padding: 12px;
-    }
-    .lightbox {
-        zoom: 1.5;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(10, 10, 10, 0.8);
-        text-align: center;
-        margin: auto;
-    }
-    div.horizontal {
-        display: flex;
-        justify-content: center;
-        height: 100%;
-    }
-    div.vertical {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-    }
-    ::-webkit-input-placeholder {
-        color: #955;
-        text-align: center;
-    }
-    ::-moz-placeholder {
-        color: #955;
-        text-align: center;
-    }
-    :-ms-input-placeholder {
-        color: #955;
-        text-align: center;
-    }
-</style>
-<body>
-    <div id="loginbox" class="lightbox">
-        <div class="horizontal">
-            <div class="vertical">
-                <div class="box">
-                    <input style="margin: 16px; text-align: center;" id="password" type="password"
-                        placeholder="password" /> <br />
-                    <button id="loginbutton" type="button">Enter</button>
-                    <p id="wrongPassword" style="display: none">wrong password</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-    <script type="text/javascript"
-        src="https://rawcdn.githack.com/chrisveness/crypto/7067ee62f18c76dd4a9d372a00e647205460b62b/sha256.js"></script>
-    <script type="text/javascript">
-        "use strict";
-
-
-        function loadPage(pwd) {
-
-            var hash = pwd;
-            hash = Sha256.hash(pwd);
-            var url = hash + "/index.html";
-            $.ajax({
-                url: url,
-                dataType: "html",
-                success: function (data) {
-                    window.location = url;
-                },
-                error: function (xhr, ajaxOptions, thrownError) {
-                    parent.location.hash = hash;
-                    //$("#wrongPassword").show();
-                    $("#password").attr("placeholder", "wrong password");
-                    $("#password").val("");
-                }
-            });
-        }
-        $("#loginbutton").on("click", function () {
-            loadPage($("#password").val());
-        });
-        $("#password").keypress(function (e) {
-            if (e.which == 13) {
-                loadPage($("#password").val());
-            }
-        });
-        $("#password").focus();
-    </script>
-</body>
-</html>
+[{"Id": 1, "Items": "Avalon", "ImageURL": "images/1.png", "Categories": "Sword", "Ratio": "2 Fin"}, {"Id": 2, "Items":
+"Authentic Triple Katana", "ImageURL": "images/2.png", "Categories": "Sword", "Ratio": "2 Fin"}, {"Id": 3, "Items":
+"Aquatic Anchor", "ImageURL": "images/3.png", "Categories": "Sword", "Ratio": "2 Fin"}, {"Id": 4, "Items": "Daybreak
+Cleaver", "ImageURL": "images/4.png", "Categories": "Sword", "Ratio": "1 Fin"}, {"Id": 5, "Items": "Sweet Lozenge",
+"ImageURL": "images/5.png", "Categories": "Sword", "Ratio": "5 Fin"}, {"Id": 6, "Items": "Scepters of Falme",
+"ImageURL": "images/6.png", "Categories": "Sword", "Ratio": "2 Fin"}, {"Id": 7, "Items": "Phoenix Blade", "ImageURL":
+"images/7.png", "Categories": "Sword", "Ratio": "2 Fin"}, {"Id": 8, "Items": "Long", "ImageURL": "images/8.png",
+"Categories": "Sword", "Ratio": "2 Fin"}, {"Id": 9, "Items": "Acroscythe", "ImageURL": "images/9.png", "Categories":
+"Sword", "Ratio": "8 Fin"}, {"Id": 10, "Items": "Ethereal", "ImageURL": "images/10.png", "Categories": "Sword", "Ratio":
+"8 Fin"}, {"Id": 11, "Items": "Pumpkin Smasher", "ImageURL": "images/11.png", "Categories": "Sword", "Ratio": "15 Fin"},
+{"Id": 12, "Items": "Tomoe taiko", "ImageURL": "images/12.png", "Categories": "Accessory", "Ratio": "2 Fin"}, {"Id": 13,
+"Items": "Hydra mark", "ImageURL": "images/13.png", "Categories": "Accessory", "Ratio": "2 Fin"}, {"Id": 14, "Items":
+"Lucidus Coat", "ImageURL": "images/14.png", "Categories": "Accessory", "Ratio": "1 Fin"}, {"Id": 15, "Items": "Tengu
+Mask", "ImageURL": "images/15.png", "Categories": "Accessory", "Ratio": "1 Fin"}, {"Id": 16, "Items": "Oni Mask",
+"ImageURL": "images/16.png", "Categories": "Accessory", "Ratio": "1 Fin"}, {"Id": 17, "Items": "Dragon Necklace",
+"ImageURL": "images/17.png", "Categories": "Accessory", "Ratio": "2 Fin"}, {"Id": 18, "Items": "Dark Beard Hat",
+"ImageURL": "images/18.png", "Categories": "Accessory", "Ratio": "1 Fin"}, {"Id": 19, "Items": "Inferno Cloak",
+"ImageURL": "images/19.png", "Categories": "Accessory", "Ratio": "5 Fin"}, {"Id": 20, "Items": "Floffy coat",
+"ImageURL": "images/20.png", "Categories": "Accessory", "Ratio": "2 Fin"}, {"Id": 21, "Items": "Hallow Shawl",
+"ImageURL": "images/21.png", "Categories": "Accessory", "Ratio": "1 Fin"}, {"Id": 22, "Items": "Hallow Lamp",
+"ImageURL": "images/22.png", "Categories": "Accessory", "Ratio": "1 Fin"}, {"Id": 23, "Items": "Pumpkin Head",
+"ImageURL": "images/23.png", "Categories": "Accessory", "Ratio": "1 Fin"}, {"Id": 24, "Items": "Green Dryadalis",
+"ImageURL": "images/24.png", "Categories": "Accessory", "Ratio": "1 Fin"}, {"Id": 25, "Items": "Nativitatis",
+"ImageURL": "images/25.png", "Categories": "Accessory", "Ratio": "1 Fin"}, {"Id": 26, "Items": "Cervus", "ImageURL":
+"images/26.png", "Categories": "Accessory", "Ratio": "1 Fin"}, {"Id": 27, "Items": "Sea King Skull", "ImageURL":
+"images/27.png", "Categories": "Accessory", "Ratio": "2 Fin"}, {"Id": 28, "Items": "EXP Crown", "ImageURL":
+"images/28.png", "Categories": "Accessory", "Ratio": "8 Fin"}, {"Id": 29, "Items": "Night Necklace", "ImageURL":
+"images/29.png", "Categories": "Accessory", "Ratio": "8 Fin"}, {"Id": 30, "Items": "Crustacean Armor", "ImageURL":
+"images/30.png", "Categories": "Accessory", "Ratio": "280 Fin +"}, {"Id": 31, "Items": "Abyss Sentinel Armor",
+"ImageURL": "images/31.png", "Categories": "Accessory", "Ratio": "2 Fin"}, {"Id": 32, "Items": "Oceanic Tentacle",
+"ImageURL": "images/32.png", "Categories": "Accessory", "Ratio": "1 Fin"}, {"Id": 33, "Items": "Shadow Cloak",
+"ImageURL": "images/33.png", "Categories": "Accessory", "Ratio": "1 Fin"}, {"Id": 34, "Items": "Sentinel Armor",
+"ImageURL": "images/34.png", "Categories": "Accessory", "Ratio": "1 Fin"}, {"Id": 35, "Items": "Water Kimono",
+"ImageURL": "images/35.png", "Categories": "Accessory", "Ratio": "4 Fin"}, {"Id": 36, "Items": "Feather", "ImageURL":
+"images/36.png", "Categories": "Material", "Ratio": "300:1 Fin"}, {"Id": 37, "Items": "Leather", "ImageURL":
+"images/37.png", "Categories": "Material", "Ratio": "300:1 Fin"}, {"Id": 38, "Items": "Bone", "ImageURL":
+"images/38.png", "Categories": "Material", "Ratio": "300:1 Fin"}, {"Id": 39, "Items": "Log", "ImageURL":
+"images/39.png", "Categories": "Material", "Ratio": "1000:1 Fin"}, {"Id": 40, "Items": "Carrots", "ImageURL":
+"images/40.png", "Categories": "Material", "Ratio": "1000:1 Fin"}, {"Id": 41, "Items": "Scraps", "ImageURL":
+"images/41.png", "Categories": "Material", "Ratio": "1000:1 Fin"}, {"Id": 42, "Items": "Irons", "ImageURL":
+"images/42.png", "Categories": "Material", "Ratio": "500:1 Fin"}, {"Id": 43, "Items": "Undead\u2019s orb", "ImageURL":
+"images/43.png", "Categories": "Material", "Ratio": "300:1 Fin"}, {"Id": 44, "Items": "Fresh fish", "ImageURL":
+"images/44.png", "Categories": "Material", "Ratio": "250:1 Fin"}, {"Id": 45, "Items": "Bread Crumbs", "ImageURL":
+"images/45.png", "Categories": "Material", "Ratio": "300:1 Fin"}, {"Id": 46, "Items": "Gunpowder", "ImageURL":
+"images/46.png", "Categories": "Material", "Ratio": "130:1 fin"}, {"Id": 47, "Items": "Thief\u2019s Rags", "ImageURL":
+"images/47.png", "Categories": "Material", "Ratio": "100:1 Fin"}, {"Id": 48, "Items": "Sk blood", "ImageURL":
+"images/48.png", "Categories": "Material", "Ratio": "5:1 Fin"}, {"Id": 49, "Items": "Magma crystal", "ImageURL":
+"images/49.png", "Categories": "Material", "Ratio": "25:1 Fin"}, {"Id": 50, "Items": "Ice crystal", "ImageURL":
+"images/50.png", "Categories": "Material", "Ratio": "25:1 Fin"}, {"Id": 51, "Items": "Vampire\u2019s Vital Fluid",
+"ImageURL": "images/51.png", "Categories": "Material", "Ratio": "20:1 Fin"}, {"Id": 52, "Items": "Dragon Scales",
+"ImageURL": "images/52.png", "Categories": "Material", "Ratio": "10:1 Fin"}, {"Id": 53, "Items": "Shark\u2019s Canine",
+"ImageURL": "images/53.png", "Categories": "Material", "Ratio": "10:1 Fin"}, {"Id": 54, "Items": "Twilight\u2019s Orb",
+"ImageURL": "images/54.png", "Categories": "Material", "Ratio": "5:1 Fin"}, {"Id": 55, "Items": "Sea\u2019s Wraith",
+"ImageURL": "images/55.png", "Categories": "Material", "Ratio": "2:1 Fin"}, {"Id": 56, "Items": "Dragon Orbs",
+"ImageURL": "images/56.png", "Categories": "Material", "Ratio": "3:1 Fin"}, {"Id": 57, "Items": "Samurai\u2019s
+Bandage", "ImageURL": "images/57.png", "Categories": "Material", "Ratio": "3:1 Fin"}, {"Id": 58, "Items": "Essence of
+Fire", "ImageURL": "images/58.png", "Categories": "Material", "Ratio": "3:1 Fin"}, {"Id": 59, "Items": "Lost Rubies",
+"ImageURL": "images/59.png", "Categories": "Material", "Ratio": "3:1 Fin"}, {"Id": 60, "Items": "Hydra Tail",
+"ImageURL": "images/60.png", "Categories": "Material", "Ratio": "7-8 Fin"}, {"Id": 61, "Items": "Phoenix Tear",
+"ImageURL": "images/61.png", "Categories": "Material", "Ratio": "6-7 Fin"}, {"Id": 62, "Items": "Sea artifact",
+"ImageURL": "images/62.png", "Categories": "Material", "Ratio": "100:1 Fin"}, {"Id": 63, "Items": "Shark Fin",
+"ImageURL": "images/63.png", "Categories": "Material", "Ratio": "30:1 Fin"}, {"Id": 64, "Items": "Coral", "ImageURL":
+"images/64.png", "Categories": "Material", "Ratio": "20:1 Fin"}, {"Id": 65, "Items": "Pearl", "ImageURL":
+"images/65.png", "Categories": "Material", "Ratio": "30:1 Fin"}, {"Id": 66, "Items": "Aqua gem", "ImageURL":
+"images/66.png", "Categories": "Material", "Ratio": "3:2 Fin"}, {"Id": 67, "Items": "Gale Stone", "ImageURL":
+"images/67.png", "Categories": "Stone", "Ratio": "12 Fin"}, {"Id": 68, "Items": "Blaze Stone", "ImageURL":
+"images/68.png", "Categories": "Stone", "Ratio": "12 Fin"}, {"Id": 69, "Items": "Tempestas Stone", "ImageURL":
+"images/69.png", "Categories": "Stone", "Ratio": "8 Fin"}, {"Id": 70, "Items": "Bloodthirsty Stone", "ImageURL":
+"images/70.png", "Categories": "Stone", "Ratio": "12 Fin"}, {"Id": 71, "Items": "Abyss Stone", "ImageURL":
+"images/71.png", "Categories": "Stone", "Ratio": "7 Fin"}, {"Id": 72, "Items": "Glacier Stone", "ImageURL":
+"images/72.png", "Categories": "Stone", "Ratio": "8 Fin"}, {"Id": 73, "Items": "Disillusion Stone", "ImageURL":
+"images/73.png", "Categories": "Stone", "Ratio": "1 Fin"}, {"Id": 74, "Items": "Conqueror Haki", "ImageURL":
+"images/74.png", "Categories": "GamePass", "Ratio": "180+ Fin"}, {"Id": 75, "Items": "Fruit Position", "ImageURL":
+"images/75.png", "Categories": "GamePass", "Ratio": "180+ Fin"}, {"Id": 76, "Items": "Night Blade", "ImageURL":
+"images/76.png", "Categories": "GamePass", "Ratio": "100+ Fin"}, {"Id": 77, "Items": "Quest Money X2", "ImageURL":
+"images/77.png", "Categories": "GamePass", "Ratio": "80+ Fin"}, {"Id": 78, "Items": "Item Drop X2", "ImageURL":
+"images/78.png", "Categories": "GamePass", "Ratio": "80+ Fin"}, {"Id": 79, "Items": "Coffin Boat", "ImageURL":
+"images/79.png", "Categories": "GamePass", "Ratio": "40+ Fin"}, {"Id": 80, "Items": "Legacy Pose", "ImageURL":
+"images/80.png", "Categories": "GamePass", "Ratio": "30+ Fin"}, {"Id": 81, "Items": "12hours 2x Exp ", "ImageURL":
+"images/81.png", "Categories": "GamePass", "Ratio": "5+ Fin"}, {"Id": 82, "Items": "Race Reroll", "ImageURL":
+"images/82.png", "Categories": "GamePass", "Ratio": "5 Fin"}, {"Id": 83, "Items": "Stat Reset", "ImageURL":
+"images/83.png", "Categories": "GamePass", "Ratio": "2 Fin"}, {"Id": 84, "Items": "Perm Spin", "ImageURL":
+"images/84.png", "Categories": "GamePass", "Ratio": "5+ Fin"}, {"Id": 85, "Items": "Perm Bomb", "ImageURL":
+"images/85.png", "Categories": "GamePass", "Ratio": "10+ Fin"}, {"Id": 86, "Items": "Perm Human", "ImageURL":
+"images/86.png", "Categories": "GamePass", "Ratio": "20+ Fin"}, {"Id": 87, "Items": "Perm Spike", "ImageURL":
+"images/87.png", "Categories": "GamePass", "Ratio": "20+ Fin"}, {"Id": 88, "Items": "Perm Paw", "ImageURL":
+"images/88.png", "Categories": "GamePass", "Ratio": "40+ Fin"}, {"Id": 89, "Items": "Perm Girraffe", "ImageURL":
+"images/89.png", "Categories": "GamePass", "Ratio": "40+ Fin"}, {"Id": 90, "Items": "Perm Barrier", "ImageURL":
+"images/90.png", "Categories": "GamePass", "Ratio": "50+ Fin"}, {"Id": 91, "Items": "Perm Wolf", "ImageURL":
+"images/91.png", "Categories": "GamePass", "Ratio": "60+ Fin"}, {"Id": 92, "Items": "Perm Love", "ImageURL":
+"images/92.png", "Categories": "GamePass", "Ratio": "60+ Fin"}, {"Id": 93, "Items": "Perm Smoke", "ImageURL":
+"images/93.png", "Categories": "GamePass", "Ratio": "80+ Fin"}, {"Id": 94, "Items": "Perm Shadow", "ImageURL":
+"images/94.png", "Categories": "GamePass", "Ratio": "80+ Fin"}, {"Id": 95, "Items": "Perm String", "ImageURL":
+"images/95.png", "Categories": "GamePass", "Ratio": "80+ Fin"}, {"Id": 96, "Items": "Perm Rubber", "ImageURL":
+"images/96.png", "Categories": "GamePass", "Ratio": "50+ Fin"}, {"Id": 97, "Items": "Perm Sand", "ImageURL":
+"images/97.png", "Categories": "GamePass", "Ratio": "80+ Fin"}, {"Id": 98, "Items": "Perm Leopard", "ImageURL":
+"images/98.png", "Categories": "GamePass", "Ratio": "100+ Fin"}, {"Id": 99, "Items": "Perm Buddha", "ImageURL":
+"images/99.png", "Categories": "GamePass", "Ratio": "100+ Fin"}, {"Id": 100, "Items": "Perm Dark", "ImageURL":
+"images/100.png", "Categories": "GamePass", "Ratio": "100+ Fin"}, {"Id": 101, "Items": "Perm Venom", "ImageURL":
+"images/101.png", "Categories": "GamePass", "Ratio": "100+ Fin"}, {"Id": 102, "Items": "Perm Gravity", "ImageURL":
+"images/102.png", "Categories": "GamePass", "Ratio": "140+ Fin"}, {"Id": 103, "Items": "Perm Allosaurus", "ImageURL":
+"images/103.png", "Categories": "GamePass", "Ratio": "120+ Fin"}, {"Id": 104, "Items": "Perm Brachio", "ImageURL":
+"images/104.png", "Categories": "GamePass", "Ratio": "120+ Fin"}, {"Id": 105, "Items": "Perm OP", "ImageURL":
+"images/105.png", "Categories": "GamePass", "Ratio": "120+ Fin"}, {"Id": 106, "Items": "Perm Mammoth", "ImageURL":
+"images/106.png", "Categories": "GamePass", "Ratio": "140+ Fin"}, {"Id": 107, "Items": "Perm Spino", "ImageURL":
+"images/107.png", "Categories": "GamePass", "Ratio": "140+ Fin"}, {"Id": 108, "Items": "Perm Ice", "ImageURL":
+"images/108.png", "Categories": "GamePass", "Ratio": "40+ Fin"}, {"Id": 109, "Items": "Perm Flame", "ImageURL":
+"images/109.png", "Categories": "GamePass", "Ratio": "140+ Fin"}, {"Id": 110, "Items": "Perm Magma", "ImageURL":
+"images/110.png", "Categories": "GamePass", "Ratio": "100+ Fin"}, {"Id": 111, "Items": "Perm Light", "ImageURL":
+"images/111.png", "Categories": "GamePass", "Ratio": "100+ Fin"}, {"Id": 112, "Items": "Perm Gas", "ImageURL":
+"images/112.png", "Categories": "GamePass", "Ratio": "100+ Fin"}, {"Id": 113, "Items": "Perm Snow", "ImageURL":
+"images/113.png", "Categories": "GamePass", "Ratio": "100+ Fin"}, {"Id": 114, "Items": "Perm Rumble", "ImageURL":
+"images/114.png", "Categories": "GamePass", "Ratio": "100+ Fin"}, {"Id": 115, "Items": "Perm Quake", "ImageURL":
+"images/115.png", "Categories": "GamePass", "Ratio": "120+ Fin"}, {"Id": 116, "Items": "Perm Gold", "ImageURL":
+"images/116.png", "Categories": "GamePass", "Ratio": "100+ Fin"}, {"Id": 117, "Items": "Perm Spirit", "ImageURL":
+"images/117.png", "Categories": "GamePass", "Ratio": "120+ Fin"}, {"Id": 118, "Items": "Perm Magnet", "ImageURL":
+"images/118.png", "Categories": "GamePass", "Ratio": "120+ Fin"}, {"Id": 119, "Items": "Perm Phoenix", "ImageURL":
+"images/119.png", "Categories": "GamePass", "Ratio": "180+ Fin"}, {"Id": 120, "Items": "Perm Gate", "ImageURL":
+"images/120.png", "Categories": "GamePass", "Ratio": "140+ Fin"}, {"Id": 121, "Items": "Perm Dough", "ImageURL":
+"images/121.png", "Categories": "GamePass", "Ratio": "180+ Fin"}, {"Id": 122, "Items": "Perm Toy", "ImageURL":
+"images/122.png", "Categories": "GamePass", "Ratio": "180+ Fin"}, {"Id": 123, "Items": "Perm Dragon", "ImageURL":
+"images/123.png", "Categories": "GamePass", "Ratio": "250+ Fin"}]

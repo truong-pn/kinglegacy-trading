@@ -33,7 +33,7 @@ Id,Items,ImageURL,Categories,Ratio
 32,Oceanic Tentacle,images/32.png,Accessory,1 Fin
 33,Shadow Cloak,images/33.png,Accessory,1 Fin
 34,Sentinel Armor,images/34.png,Accessory,1 Fin
-35,Water Kimono,images/35.png,Accessory,4 Fin
+35,Water Kimono,images/35.png,Accessory,20+ Fin
 36,Feather,images/36.png,Material,300:1 Fin
 37,Leather,images/37.png,Material,300:1 Fin
 38,Bone,images/38.png,Material,300:1 Fin
@@ -82,8 +82,8 @@ Id,Items,ImageURL,Categories,Ratio
 81,12hours 2x Exp ,images/81.png,GamePass,5+ Fin
 82,Race Reroll,images/82.png,GamePass,5 Fin
 83,Stat Reset,images/83.png,GamePass,2 Fin
-84,Perm Spin,images/84.png,GamePass,5+ Fin
-85,Perm Bomb,images/85.png,GamePass,10+ Fin
+84,Perm Spin,images/84.png,GamePass,2+ Fin
+85,Perm Bomb,images/85.png,GamePass,5+ Fin
 86,Perm Human,images/86.png,GamePass,20+ Fin
 87,Perm Spike,images/87.png,GamePass,20+ Fin
 88,Perm Paw,images/88.png,GamePass,40+ Fin
